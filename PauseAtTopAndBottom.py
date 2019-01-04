@@ -198,7 +198,6 @@ class PauseAtTopAndBottom(Script):
                 top_layer = layer
                 top_layer_index = index
                 if ";LAYER:" in layer: break
-            Logger.log("d", top_layer)
             lines = top_layer.split("\n")
 
             in_skin_lines = False
